@@ -9,6 +9,6 @@ def minhong(request):
     return HttpResponse("Hello Minhong!")
 
 def greet(request, name):
-    return render(request, "hello\greet.hml", {
+    return render(request, "hello\greet.html", {
         "name": name.capitalize()
     })
